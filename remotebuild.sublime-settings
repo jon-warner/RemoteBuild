@@ -1,0 +1,34 @@
+{
+    //command and arguments that should be used to connect to remote host
+    "remotebuild_command": "plink",
+
+    //Set to false to disable auto scroll of the view
+    "remotebuild_auto_scroll": true,
+
+    // Max number of lines in the build buffer
+    "remotebuild_maxlines": 20000,
+
+    // A regex filter that is used when selecting which lines to display
+    "remotebuild_filter": ".",
+
+    // the name or ip address of the remote build host
+    "remotebuild_remote_host": "build_server_name.domain.com",
+
+    // user-id on remote host
+    "remotebuild_userid": "userid",
+
+    // password on remote host
+    "remotebuild_password": "password",
+
+    // remote host command prompt string
+    "remotebuild_prompt": "userid@build_server_name~$ ",
+
+    // build location on remote host
+    "remotebuild_directory": "~/projects/current/android",
+
+    // build setup command, any pre-build commands
+    "remotebuild_setup_command": "source build/envsetup.sh; lunch 4",
+
+    // build command
+    "remotebuild_build_command": "make -j12"
+}

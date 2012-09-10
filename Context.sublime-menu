@@ -1,0 +1,5 @@
+[
+    { "caption": "-", "id": "remote_build" },
+    { "command": "remote_build_clear_view", "caption": "RemoteBuild clear and rebuild"},
+    { "command": "remote_build_goto_file_line", "caption": "RemoteBuild go to file line"}
+]

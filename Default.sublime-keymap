@@ -1,0 +1,7 @@
+[
+
+    {
+        "command": "remote_build_launch",
+        "keys": ["ctrl+alt+b"]
+    }
+]

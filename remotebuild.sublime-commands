@@ -1,0 +1,6 @@
+[
+    {
+        "caption": "RemoteBuild: Launch",
+        "command": "remote_build_launch"
+    }
+]
